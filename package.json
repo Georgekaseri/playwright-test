@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --project=chromium --headed",
+    "jenkins:test": "npx playwright test",
     "generate:report": "npx playwright show-report"
   },
   "repository": {
