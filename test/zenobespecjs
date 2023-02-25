@@ -1,0 +1,9 @@
+Launches a new instance of the Chromium browser.
+Navigates to https://www.zenobe.com/ before each test.
+Closes the page after each test.
+Closes the browser after all tests have run.
+Verifies that the page title is correct.
+Verifies that the logo is visible.
+Verifies that the navigation menu is visible.
+Verifies that the call to action button is visible.
+Verifies that the footer is visible.

@@ -1,0 +1,24 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "A high-level API to automate web browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --headed",
+    "generate:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgekaseri/playwright-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgekaseri/playwright-test/issues"
+  },
+  "homepage": "https://github.com/Georgekaseri/playwright-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1"
+  }
+}
